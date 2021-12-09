@@ -1,5 +1,22 @@
+@font-face {
+  font-family: 'Cinema';
+  src: url("assets/fonts/Cinema.ttf");
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/Yekan.ttf');
+}
+
+@font-face {
+  font-family: 'OleoScript';
+  src: url('assets/fonts/OleoScript.ttf');
+}
+
 body {
   margin: 0;
+  background-color: lightslategray;
+  font-family: Yekan;
 }
 
 nav {
@@ -7,22 +24,23 @@ nav {
   display: flex;
   height: 40px;
   width: 100%;
+  position: sticky;
 }
 
 nav a {
-  display: inline-block;
   height: initial;
   padding: 0 20px;
   color: ghostwhite;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: lighter;
+  font-size: larger;
 }
 
 nav .active {
   background-color: rgba(0, 0, 0, .74);
 }
 
-nav a:hover {
+nav a:hover:not(.active, .title-card) {
   background-color: rgba(0, 0, 0, .3);
 }
 
@@ -30,4 +48,14 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.title-card {
+  display: flex;
+  align-items: center;
+  direction: ltr;
+  flex-grow: 1;
+  color: crimson;
+  font-size: x-large;
+  font-family: OleoScript;
 }
