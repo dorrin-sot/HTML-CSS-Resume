@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, .8);
+  display: flex;
+  height: 40px;
+  width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  height: initial;
+  padding: 0 20px;
+  color: ghostwhite;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+nav .active {
+  background-color: rgba(0, 0, 0, .74);
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
