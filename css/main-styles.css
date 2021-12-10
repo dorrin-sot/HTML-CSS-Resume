@@ -9,6 +9,7 @@
   background-color: #1b1c1f;
   border-radius: 4vh;
   box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.3), 15px 15px 15px rgba(0, 0, 0, 0.2);
+  padding-right: 60px;
 }
 
 .card-title {
@@ -17,12 +18,11 @@
   font-family: Cinema;
   color: lightgray;
   padding-top: 15px;
-  padding-right: 60px;
 }
 
 .card-title-divider {
   max-width: 60px;
-  margin-right: 60px;
+  margin-right: 0;
   border: 2px solid orange;
 }
 
@@ -35,7 +35,7 @@ footer {
 
 .contact-us {
   width: 50vw;
-  height: 23vh;
+  height: 22.5vh;
   bottom: 4vh;
   transform: translateX(-50%);
   background-color: orange;
@@ -60,7 +60,7 @@ footer {
 .contact-us .socials {
   margin-top: 0;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .contact-us .socials a {
@@ -152,4 +152,20 @@ footer {
 
 .w-100 {
   width: 100% !important;
+}
+
+.no-m {
+  margin: 0 !important;
+}
+
+.w-33 {
+  width: 33% !important;
+}
+
+.dir-ltr {
+  direction: ltr !important;
+}
+
+.dir-rtl {
+  direction: rtl !important;
 }
