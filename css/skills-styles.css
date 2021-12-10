@@ -1,0 +1,99 @@
+.vl {
+  position: absolute;
+  border-left: 1px solid #26283e;
+  height: 60%;
+  top: 30%;
+  left: 50%;
+}
+
+.main-card .title {
+  color: lightgray;
+  text-align: center;
+}
+
+#soft-skills-flow p {
+  display: inline-block;
+  background-color: royalblue;
+  color: lightgray;
+  height: 20px;
+  margin: 5px 3px;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.circ-progress {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #1b1c1f;
+  color: lightgray;
+  text-align: center;
+  margin: 15px;
+}
+
+.circ-progress h3 {
+  padding-top: 30%;
+  margin-bottom: 5px;
+  font-family: Oswald;
+  font-weight: lighter;
+  font-size: x-large;
+  transform: translateY(-50%);
+}
+
+.circ-progress h4 {
+  margin-top: 5px;
+  padding-bottom: 50%;
+  font-weight: lighter;
+  font-size: smaller;
+  transform: translateY(-50%);
+}
+
+.circ-progress::after {
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
+.circ-progress::before {
+  content: '';
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+  filter: blur(20px);
+}
+
+.perc-60::before {
+  background: conic-gradient(royalblue 60%, lightgray 60%);
+}
+
+.perc-60::after {
+  background: conic-gradient(royalblue 60%, lightgray 60%);
+}
+
+
+.perc-40::before {
+  background: conic-gradient(royalblue 40%, lightgray 40%);
+}
+
+.perc-40::after {
+  background: conic-gradient(royalblue 40%, lightgray 40%);
+}
+
+
+.perc-20::before {
+  background: conic-gradient(royalblue 20%, lightgray 20%);
+}
+
+.perc-20::after {
+  background: conic-gradient(royalblue 20%, lightgray 20%);
+}

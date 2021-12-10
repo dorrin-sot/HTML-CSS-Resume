@@ -1,7 +1,7 @@
 .main-card {
   /*margin-bottom: 20px;*/
-  height: 60vh;
-  width: 80vw;
+  height: 550px;
+  width: 900px;
   position: absolute;
   top: 42.5%;
   left: 50%;
@@ -34,10 +34,11 @@ footer {
 }
 
 .contact-us {
-  width: 50vw;
-  height: 22.5vh;
-  bottom: 4vh;
-  transform: translateX(-50%);
+  width: 500px;
+  height: 200px;
+  bottom: 3vh;
+  right: 50%;
+  transform: translateX(50%);
   background-color: orange;
   border-radius: 4px;
 }
