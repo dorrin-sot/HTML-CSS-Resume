@@ -169,3 +169,7 @@ footer {
 .dir-rtl {
   direction: rtl !important;
 }
+
+.disp-inline-block {
+  display: inline-block !important;
+}
