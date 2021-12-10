@@ -42,8 +42,8 @@ nav a {
 }
 
 nav .active {
-  background-color: orange;
-  color: rgba(0, 0, 0, 0.8);
+  background-color: darkred;
+  color: lightgray;
 }
 
 nav a:hover:not(.active, .title-card) {
@@ -62,7 +62,7 @@ nav a:hover:not(.active, .title-card) {
   align-items: center;
   direction: ltr;
   flex-grow: 1;
-  color: darkorange;
+  color: skyblue;
   font-size: x-large;
   font-family: OleoScript;
 }

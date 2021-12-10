@@ -7,7 +7,7 @@
 }
 
 .my-name {
-  color: tomato;
+  color: lightblue;
 }
 
 .my-exp, .my-bio, .contact-info-title, #contact-info-table {
@@ -30,7 +30,7 @@
 }
 
 #contact-info-table a:hover {
-  color: orangered;
+  color: darkred;
   transition: color ease-in .2s;
 }
 
