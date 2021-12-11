@@ -72,9 +72,8 @@ footer {
 }
 
 .contact-us .socials a:hover {
-  color: #1b1b1b;
-  font-size: 1.75em;
-  transition: font-size ease-in .25s, color ease-in .25s;
+  color: chartreuse;
+  transition: color ease-in .25s;
 }
 
 .contact-form {
