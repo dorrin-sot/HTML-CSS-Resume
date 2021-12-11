@@ -175,3 +175,7 @@ footer {
 .disp-inline-block {
   display: inline-block !important;
 }
+
+.disp-block {
+  display: block !important;
+}

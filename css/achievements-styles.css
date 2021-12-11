@@ -1,0 +1,29 @@
+#achievements-table {
+  width: 100%;
+  color: lightgray;
+}
+
+.achievements-cell {
+  display: block;
+  width: 50%;
+  margin: 15px 0;
+}
+
+.fa-medal, .fa-swimmer, .fa-volleyball-ball {
+  color: lightgray;
+  height: 15% !important;
+  width: 10% !important;
+  margin: 0 15px;
+}
+
+#achievements-table h3 {
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+#achievements-table p {
+  color: gray;
+  direction: ltr;
+  font-size: small;
+  text-align: start;
+}
