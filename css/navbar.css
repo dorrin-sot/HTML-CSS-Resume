@@ -63,7 +63,7 @@ nav a:hover:not(.active, .title-card) {
   align-items: center;
   direction: ltr;
   flex-grow: 1;
-  color: skyblue;
+  color: #D08504;
   font-size: x-large;
   font-family: OleoScript;
 }
