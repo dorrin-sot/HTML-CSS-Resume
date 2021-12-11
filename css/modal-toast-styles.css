@@ -10,6 +10,11 @@
   height: 250px;
 }
 
+.success {
+  width: 350px;
+  height: 125px;
+}
+
 .modal-content {
   background-color: #cdcdcd;
   margin: auto;

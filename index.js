@@ -22,8 +22,8 @@ function submitContactForm() {
   modal.style.display = "block"
 }
 
-function dialogDismiss() {
-  let modal = document.getElementsByClassName('modal')[0]
+function dialogDismiss(dialogNum) {
+  let modal = document.getElementsByClassName('modal')[dialogNum]
   modal.style.display = "none"
 
   document.getElementById('fname').value = "";
@@ -33,7 +33,8 @@ function dialogDismiss() {
 }
 
 function confirmContactForm() {
-  // todo show success toast
+  dialogDismiss(0)
 
-  dialogDismiss()
+  let successModal = document.getElementsByClassName('modal')[1]
+  successModal.style.display = "block"
 }

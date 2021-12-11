@@ -59,7 +59,7 @@
 
 <div class="modal">
   <div class="modal-content">
-    <span class="close" onclick="document.getElementsByClassName('modal').style.display = 'none'">&times;</span><br><br>
+    <span class="close" onclick="dialogDismiss(0)">&times;</span><br><br>
     <h3>آیا از ارسال این پیام اطمینان دارید؟</h3>
     <ul>
       <li><span class="key">نام </span><span class="value"></span></li>
@@ -69,7 +69,17 @@
     </ul>
     <div class="btn-bar">
       <button onclick="confirmContactForm()">بله</button>
-      <button onclick="dialogDismiss()">خیر</button>
+      <button onclick="dialogDismiss(0)">خیر</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal success">
+  <div class="modal-content">
+    <span class="close" onclick="dialogDismiss(1)">&times;</span><br><br>
+    <h3 style="text-align: center">پیام شما با موفقیت ارسال شد :)</h3>
+    <div class="btn-bar">
+      <button onclick="dialogDismiss(1)">اوکی</button>
     </div>
   </div>
 </div>
