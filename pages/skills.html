@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Dorrin's Resume</title>
   <script src="../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+  <script src="../index.js"></script>
 </head>
 <body>
 
@@ -62,6 +63,23 @@
   </section>
 </main>
 
+<div class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="document.getElementsByClassName('modal').style.display = 'none'">&times;</span><br><br>
+    <h3>آیا از ارسال این پیام اطمینان دارید؟</h3>
+    <ul>
+      <li><span class="key">نام </span><span class="value"></span></li>
+      <li><span class="key">نام خانوادگی </span><span class="value"></span></li>
+      <li><span class="key">ایمیل </span><span class="value"></span></li>
+      <li><span class="key">پیام </span><span class="value"></span></li>
+    </ul>
+    <div class="btn-bar">
+      <button onclick="confirmContactForm()">بله</button>
+      <button onclick="dialogDismiss()">خیر</button>
+    </div>
+  </div>
+</div>
+
 <footer class="pos-absolute w-100">
   <div class="contact-us pos-absolute">
     <p class="title">تماس با من</p>
@@ -75,7 +93,7 @@
       <a href="#"><i class="fab fa-google-plus"></i></a>
     </div>
     <p class="title title-2">ارتباط با من</p>
-    <form class="contact-form">
+    <form class="contact-form" onsubmit="return false">
       <input id="fname" type="text" placeholder="نام" required>
       <input id="sname" type="text" placeholder="نام خانوادگی" required>
       <input id="email" type="email" placeholder="ایمیل" required>
@@ -89,4 +107,5 @@
 <link rel="stylesheet" href="../css/navbar.css"/>
 <link rel="stylesheet" href="../css/main-styles.css"/>
 <link rel="stylesheet" href="../css/skills-styles.css"/>
+<link rel="stylesheet" href="../css/modal-toast-styles.css"/>
 </html>
